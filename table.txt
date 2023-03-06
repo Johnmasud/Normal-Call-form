@@ -1,0 +1,13 @@
+CREATE TABLE [dbo].[target_store_upc_load](
+ [chain_no] [int] NULL,
+ [store_no] [int] NULL,
+ [category] [nvarchar](100) NULL,
+ [brand] [nvarchar](100) NULL,
+ [item_desc] [nvarchar](100) NULL,
+ [retailer_sku] [nvarchar](30) NULL,
+ [upc] [nvarchar](30) NULL,
+ [on_hand_qty] [decimal](12, 2) NULL,
+ [record_comments] [nvarchar](200) NULL,
+ [file_names] [nvarchar](100) NULL,
+ [create_dt] [smalldatetime] NULL
+)
